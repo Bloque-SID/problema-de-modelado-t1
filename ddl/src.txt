@@ -39,11 +39,12 @@ CREATE TABLE ProductUnit(
     PRIMARY KEY(product_id, product_unit_id)
 );
 
-CREATE TABLE Review(id int, 
+CREATE TABLE Review(
+    review_id int, 
     content varchar(120), 
     product_id int,
     score int, 
-    PRIMARY KEY(id), 
+    PRIMARY KEY(review_id), 
     FOREIGN KEY(product_id) REFERENCES Product(product_id)
 );
 
