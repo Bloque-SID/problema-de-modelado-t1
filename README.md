@@ -1,6 +1,7 @@
-## Este repositorio corresponde a la problema de modelado del curso Sistema Intensivos en Datos 1
+# Problema de modelado SID1
 
-El ejercicio consistió en plantear un ejemplo para un modelo de datos que cumpliera con las siguientes caracteristicas:
+Este repositorio corresponde al problema de modelado del curso Sistema Intensivos en Datos 1.El ejercicio consistió en plantear un ejemplo para un modelo de datos que cumpliera con las siguientes caracteristicas:
+
 * El ejemplo es original, o adaptado de otra fuente. Los estudiantes deben especificar explícitamente si el ejemplo es original o adaptado. En el caso en que el ejemplo sea adaptado, los estudiantes deben hacer la referencia correspondiente y enlazar la fuente o incluir el documento fuente como anexo. La omisión de la referencia o anexo es considerado plagio.
 * El ejemplo contiene al menos tres entidades fundamentales, cada entidad con al menos tres atributos. Los atributos de las entidades deben representar valores que pueden ser números, cadenas, fechas o conjuntos de valores.
 * El ejemplo contiene al menos una entidad débil.
