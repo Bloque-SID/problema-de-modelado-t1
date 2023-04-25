@@ -17,7 +17,7 @@ CREATE TABLE Product(
 
 CREATE TABLE Customer(
     customer_id int,
-    name varchar(20), 
+    name varchar(25), 
     email varchar(40), 
     password varchar(20), 
     PRIMARY KEY(customer_id)
@@ -352,3 +352,54 @@ INSERT INTO ProductUnit(product_unit_id,product_id,status,location) VALUES (47,3
 INSERT INTO ProductUnit(product_unit_id,product_id,status,location) VALUES (48,4,'available','Warehouse 5 hall 2');
 INSERT INTO ProductUnit(product_unit_id,product_id,status,location) VALUES (49,50,'sold','n/a');
 INSERT INTO ProductUnit(product_unit_id,product_id,status,location) VALUES (50,1,'available','Warehouse 4 hall 6');
+
+INSERT INTO Review(review_id,product_id,score,content) VALUES (1,1,5,'Excelente producto, me encanta');
+INSERT INTO Review(review_id,product_id,score,content) VALUES (2,2,3,'No me gustó mucho, esperaba más del producto');
+INSERT INTO Review(review_id,product_id,score,content) VALUES (3,3,4,'Lo compré hace poco y hasta ahora estoy muy satisfecho');
+INSERT INTO Review(review_id,product_id,score,content) VALUES (4,4,2,'No es lo que esperaba, no lo recomendaría');
+INSERT INTO Review(review_id,product_id,score,content) VALUES (5,5,5,'¡Increíble! Este producto superó todas mis expectativas');
+INSERT INTO Review(review_id,product_id,score,content) VALUES (6,6,4,'Me gustó bastante, aunque creo que hay opciones mejores');
+INSERT INTO Review(review_id,product_id,score,content) VALUES (7,7,1,'No me gustó para nada, fue una pérdida de dinero');
+INSERT INTO Review(review_id,product_id,score,content) VALUES (8,8,3,'Está bien, pero no creo que lo vuelva a comprar');
+INSERT INTO Review(review_id,product_id,score,content) VALUES (9,9,5,'Definitivamente lo recomiendo, excelente relación calidad-precio');
+INSERT INTO Review(review_id,product_id,score,content) VALUES (10,10,2,'No es tan bueno como dicen, no me convenció');
+INSERT INTO Review(review_id,product_id,score,content) VALUES (11,11,4,'Buen producto, lo uso todos los días');
+INSERT INTO Review(review_id,product_id,score,content) VALUES (12,12,5,'Estoy enamorado de este producto, ¡no puedo vivir sin él!');
+INSERT INTO Review(review_id,product_id,score,content) VALUES (13,13,3,'No es malo, pero tampoco es excelente');
+INSERT INTO Review(review_id,product_id,score,content) VALUES (14,14,2,'No me gustó, esperaba más');
+INSERT INTO Review(review_id,product_id,score,content) VALUES (15,15,4,'Buen producto, pero un poco caro');
+INSERT INTO Review(review_id,product_id,score,content) VALUES (16,16,5,'¡Fantástico! No tengo ninguna queja');
+INSERT INTO Review(review_id,product_id,score,content) VALUES (17,17,1,'Lo odié, no volvería a comprarlo nunca');
+INSERT INTO Review(review_id,product_id,score,content) VALUES (18,18,4,'Estoy muy contento con mi compra, es justo lo que necesitaba');
+INSERT INTO Review(review_id,product_id,score,content) VALUES (19,19,3,'No es malo, pero tampoco es la gran cosa');
+INSERT INTO Review(review_id,product_id,score,content) VALUES (20,20,2,'No cumplió mis expectativas, esperaba algo mejor');
+INSERT INTO Review(review_id,product_id,score,content) VALUES (21,21,5,'Increíble producto, lo recomiendo totalmente');
+INSERT INTO Review(review_id,product_id,score,content) VALUES (22,22,4,'Buen producto, funciona bien');
+INSERT INTO Review(review_id,product_id,score,content) VALUES (23,23,1,'No me gustó, lo devolví inmediatamente');
+INSERT INTO Review(review_id,product_id,score,content) VALUES (24,24,3,'Es un producto promedio, no es excelente pero tampoco es malo');
+INSERT INTO Review(review_id,product_id,score,content) VALUES (25,25,4,'Me gusta bastante, lo uso todo el tiempo');
+INSERT INTO Review(review_id,product_id,score,content) VALUES (26,26,3,'Me gustó mucho este producto, lo compré para mi hermana y quedó encantada con él.');
+INSERT INTO Review(review_id,product_id,score,content) VALUES (27,27,5,'Excelente producto, lo recomiendo ampliamente.');
+INSERT INTO Review(review_id,product_id,score,content) VALUES (28,28,2,'No me gustó mucho este producto, no cumple con las expectativas que tenía.');
+INSERT INTO Review(review_id,product_id,score,content) VALUES (29,29,4,'Me pareció un buen producto, pero un poco caro para lo que ofrece.');
+INSERT INTO Review(review_id,product_id,score,content) VALUES (30,30,1,'No lo recomiendo, no vale la pena el precio que tiene.');
+INSERT INTO Review(review_id,product_id,score,content) VALUES (31,31,3,'Me gustó el producto, pero no es algo que compraría de nuevo.');
+INSERT INTO Review(review_id,product_id,score,content) VALUES (32,32,4,'Muy buen producto, funciona muy bien y es fácil de usar.');
+INSERT INTO Review(review_id,product_id,score,content) VALUES (33,33,5,'¡Me encantó este producto! Realmente hizo una gran diferencia en mi vida.');
+INSERT INTO Review(review_id,product_id,score,content) VALUES (34,34,2,'No me gustó este producto, no cumple con lo que promete.');
+INSERT INTO Review(review_id,product_id,score,content) VALUES (35,35,4,'Un producto bastante bueno, lo volvería a comprar.');
+INSERT INTO Review(review_id,product_id,score,content) VALUES (36,36,3,'El producto funciona bien, pero hay mejores opciones en el mercado.');
+INSERT INTO Review(review_id,product_id,score,content) VALUES (37,37,1,'Terrible producto, no funciona en absoluto.');
+INSERT INTO Review(review_id,product_id,score,content) VALUES (38,38,5,'El mejor producto que he probado, realmente ha cambiado mi vida.');
+INSERT INTO Review(review_id,product_id,score,content) VALUES (39,39,4,'Buen producto en general, aunque tiene algunos pequeños problemas.');
+INSERT INTO Review(review_id,product_id,score,content) VALUES (40,40,2,'No me gustó este producto, no es para mí.');
+INSERT INTO Review(review_id,product_id,score,content) VALUES (41,41,4,'Un buen producto con un precio justo.');
+INSERT INTO Review(review_id,product_id,score,content) VALUES (42,42,5,'Este producto es increíble, ha superado todas mis expectativas.');
+INSERT INTO Review(review_id,product_id,score,content) VALUES (43,43,3,'El producto es decente, pero esperaba un poco más por el precio que pagué.');
+INSERT INTO Review(review_id,product_id,score,content) VALUES (44,44,2,'No me gustó este producto, no lo recomendaría.');
+INSERT INTO Review(review_id,product_id,score,content) VALUES (45,45,4,'Buen producto en general, aunque no es perfecto.');
+INSERT INTO Review(review_id,product_id,score,content) VALUES (46,46,1,'No funciona en absoluto, una pérdida de dinero total.');
+INSERT INTO Review(review_id,product_id,score,content) VALUES (47,47,3,'El producto es promedio, nada especial.');
+INSERT INTO Review(review_id,product_id,score,content) VALUES (48,48,5,'Este producto es maravilloso, lo recomiendo totalmente.');
+INSERT INTO Review(review_id,product_id,score,content) VALUES (49,49,4,'Un buen producto que cumple con lo que promete.');
+INSERT INTO Review(review_id,product_id,score,content) VALUES (50,50,2,'No me gustó este producto, lo encontré ineficaz.');
