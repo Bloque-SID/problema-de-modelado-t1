@@ -53,7 +53,7 @@ CREATE TABLE Purchase(
     customer_id int,
     bill_id int,
     order_date date, 
-    status varchar(10), 
+    status varchar(15), 
     PRIMARY KEY(purchase_id), 
     FOREIGN KEY(customer_id) REFERENCES CUSTOMER(customer_id), 
     FOREIGN KEY (bill_id) REFERENCES BILL(bill_id)
